@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "98e9",
+      "username": "emre",
+      "fullname": "emre",
+      "password": "e46536ccb9332e4ad866252de50a09ec2bce42fd"
+    },
+    {
+      "id": "bdb7",
+      "username": "emre",
+      "fullname": "emrea",
+      "password": "8cc9592f547c685c5f508585ecb1bc1d080e1be7",
+      "likes": [
+        "7414",
+        "b890"
+      ]
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "7414",
+      "title": "fe",
+      "url": "e",
+      "categoryId": "2",
+      "description": "e",
+      "userId": "bdb7",
+      "created_at": "2024-09-27T20:10:47.702Z"
+    },
+    {
+      "id": "456c",
+      "title": "gh",
+      "url": "hg",
+      "categoryId": "3",
+      "description": "gh",
+      "userId": "bdb7",
+      "created_at": "2024-09-27T20:14:45.974Z"
+    },
+    {
+      "id": "2384",
+      "title": "re",
+      "url": "rw",
+      "categoryId": "1",
+      "description": "asdfa",
+      "userId": "bdb7",
+      "created_at": "2024-09-27T20:19:22.943Z"
+    },
+    {
+      "id": "5a65",
+      "title": "e",
+      "url": "re",
+      "categoryId": "4",
+      "description": "r",
+      "userId": "bdb7",
+      "created_at": "2024-09-29T09:51:47.876Z"
+    },
+    {
+      "id": "a3be",
+      "title": "ee",
+      "url": "re",
+      "categoryId": "2",
+      "description": "e",
+      "userId": "bdb7",
+      "created_at": "2024-09-29T15:09:30.994Z"
+    },
+    {
+      "id": "b890",
+      "title": "frond",
+      "url": "rerer",
+      "categoryId": "2",
+      "description": "bu frond endindir",
+      "userId": "bdb7",
+      "created_at": "2024-09-29T18:10:10.261Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "vue.js"
+    },
+    {
+      "id": "2",
+      "name": "frond-end"
+    },
+    {
+      "id": "3",
+      "name": "Backend"
+    },
+    {
+      "id": "4",
+      "name": "web"
+    }
+  ]
+}

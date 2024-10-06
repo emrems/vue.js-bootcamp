@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3.2.45/dist/vue.global.js"></script>
+    <title>todolist</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            border-radius: 5px;
+            background-color: aqua;
+        }
+        .container{
+            width: 200px;
+            height: 220px;
+            background-color: bisque;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <input v-model="valuee" type="text">
+       
+        <button @click="getValue" >ekle</button>
+        <ul>
+            <li v-for="item in todoList">{{ item }}</li>
+        </ul>
+        <a :href="url">git</a>
+
+        <h2>{{ title}}</h2>
+        <button @click="changeTitle">tıkla ve title değiştir</button><br><br><br><br>
+
+        <div @mousemove="showCoordinate" class="box"></div>
+        <h2>coordinate x = {{coordinate.cordx}}, coordinate y = {{coordinate.cordy}}</h2><br><br><br>
+        <!-- inputa girileen veriyi alma-->
+        <input   @input="getİnputValue" type="text">
+        <h2>girilen input: {{ value }}</h2>
+
+        
+
+        <!-- v-model ile girilen veriyi alma-->
+       <input v-model="exampleValue" type="text" >
+       <h2>girilen input: {{ exampleValue }}</h2>
+
+      <div class="container">
+        <h2>{{counter}}</h2>
+        <button @click="counter++">arttır</button>
+        <button  @click="counter--">azalt</button>
+        <p>{{getResult}}</p>
+
+        <h2>{{counter2}}</h2>
+        <button  @click="counter2++">arttır</button>
+        <button  @click="counter2--">azalt</button>
+        <p>{{getResult2}}</p>
+      </div>
+
+    <div class="container">
+        <pre>{{itemlist}}</pre>
+        <button @click="add">ekle</button>
+    </div>   
+
+    </div>  
+    
+    <script src="app.js"></script>
+</body>
+</html>
